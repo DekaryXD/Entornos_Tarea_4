@@ -20,6 +20,70 @@ public class CuentaBancaria {
     private static final int TAM_MIN = 10;
 
     /**
+     * Muestra el titular
+     * @return
+     */
+    public String getTitular() {
+        return titular;
+    }
+
+    /**
+     * Cambia el titular
+     * @param titular
+     */
+    public void setTitular(String titular) {
+        this.titular = titular;
+    }
+
+    /**
+     * Muestra la entidad
+     * @return
+     */
+    public String getEntidad() {
+        return entidad;
+    }
+
+    /**
+     * Cambia la entidad
+     * @param entidad
+     */
+    public void setEntidad(String entidad) {
+        this.entidad = entidad;
+    }
+
+    /**
+     * Muestra la oficina
+     * @return
+     */
+    public String getOficina() {
+        return oficina;
+    }
+
+    /**
+     * Cambia la oficina
+     * @param oficina
+     */
+    public void setOficina(String oficina) {
+        this.oficina = oficina;
+    }
+
+    /**
+     * Muestra el numero de la cuenta
+     * @return
+     */
+    public String getNumCuenta() {
+        return numCuenta;
+    }
+
+    /**
+     * Cambia el numero de la cuenta
+     * @param numCuenta
+     */
+    public void setNumCuenta(String numCuenta) {
+        this.numCuenta = numCuenta;
+    }
+
+    /**
      * Constructor CuentaBancaria, que crea una cuenta bancaria con los parámetros de entrada suministrados
      *
      * @param titular Titular de la cuenta, que debe contener entre 10 y 100 caracteres
